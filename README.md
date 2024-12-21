@@ -1,7 +1,7 @@
 # Sistema de Controle de Demandas
 
 ## Descrição
-Este projeto é um sistema de controle de demandas desenvolvido em Java com Spring Boot. Ele oferece uma API RESTful para gerenciar demandas de funcionários, permitindo criar, ler, atualizar e deletar registros de atividades e tarefas.
+Este projeto é um sistema de controle de demandas desenvolvido em Java com Spring Boot. Ele oferece uma API REST para gerenciar demandas de funcionários, permitindo criar, ler, atualizar e deletar registros de atividades e tarefas.
 
 ## Funcionalidades
 - Criar novas demandas
