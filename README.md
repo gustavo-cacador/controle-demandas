@@ -53,9 +53,6 @@ Este projeto é um sistema de controle de demandas desenvolvido em Java com Spri
 }
 ```
 
-Este formato garante que cada campo fique em uma linha separada, melhorando a legibilidade do JSON no GitHub.
-
-
 ## Configuração do Banco de Dados
 O projeto utiliza H2 Database para desenvolvimento. As configurações podem ser encontradas em `src/main/resources/application.properties`.
 
