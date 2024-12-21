@@ -52,7 +52,6 @@ Este projeto é um sistema de controle de demandas desenvolvido em Java com Spri
   "emailSolicitante": "gustavo@gmail.com"
 }
 ```
-```
 
 Este formato garante que cada campo fique em uma linha separada, melhorando a legibilidade do JSON no GitHub.
 
