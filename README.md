@@ -38,18 +38,24 @@ Este projeto é um sistema de controle de demandas desenvolvido em Java com Spri
 - DELETE `/api/demandas/{id}`: Deletar uma demanda
 
 ## Exemplo de Payload (JSON)
+```
 {
-    "funcionario": "Gustavo Caçador",
-    "pendencia": "Implementando API do projeto Controle de Demandas",
-    "situacao": "Em andamento",
-    "servico": "TI",
-    "dataAbertura": "2024-12-21",
-    "nivel": 1,
-    "prazo": "2025-01-21",
-    "canal": "Postman",
-    "solicitante": "Gustavo",
-    "emailSolicitante": "gustavo@gmail.com"
+  "funcionario": "Gustavo Caçador",
+  "pendencia": "Implementando API do projeto Controle de Demandas",
+  "situacao": "Em andamento",
+  "servico": "TI",
+  "dataAbertura": "2024-12-21",
+  "nivel": 1,
+  "prazo": "2025-01-21",
+  "canal": "Postman",
+  "solicitante": "Gustavo",
+  "emailSolicitante": "gustavo@gmail.com"
 }
+```
+```
+
+Este formato garante que cada campo fique em uma linha separada, melhorando a legibilidade do JSON no GitHub.
+
 
 ## Configuração do Banco de Dados
 O projeto utiliza H2 Database para desenvolvimento. As configurações podem ser encontradas em `src/main/resources/application.properties`.
