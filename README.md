@@ -16,7 +16,7 @@ Este projeto é um sistema de controle de demandas desenvolvido em Java com Spri
 - Spring Data JPA
 - H2 Database (para desenvolvimento)
 - Maven (gerenciamento de dependências)
-- RESTful API
+- REST API
 
 ## Estrutura do Projeto
 - `model`: Contém a classe `Demanda` que define a estrutura dos dados
